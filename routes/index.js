@@ -45,7 +45,7 @@ router.get('/about', function(req, res) {
 });
 
 router.get('/hardware', function(req, res) {
-  res.render('about', {
+  res.render('hardware', {
     title: 'Alex\'s Website',
     links: {
       home: {
