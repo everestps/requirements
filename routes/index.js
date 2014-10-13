@@ -24,7 +24,7 @@ router.get('/', function(req, res) {
 });
 
 router.get('/about', function(req, res) {
-  res.render('index', {
+  res.render('about', {
     title: 'Alex\'s Website',
     links: {
       home: {
@@ -45,7 +45,7 @@ router.get('/about', function(req, res) {
 });
 
 router.get('/hardware', function(req, res) {
-  res.render('index', {
+  res.render('about', {
     title: 'Alex\'s Website',
     links: {
       home: {
