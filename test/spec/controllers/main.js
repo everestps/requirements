@@ -15,5 +15,5 @@ describe('Controller: MainCtrl', function () {
       $scope: scope
     });
   }));
-  
+
 });
