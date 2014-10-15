@@ -16,7 +16,7 @@ body {
   padding-bottom: 20px;
 }
 
-p {
+.page {
   color: #bbb;
   opacity: 1;
 }
@@ -47,11 +47,10 @@ h1, h2, h3, h4, h5, h6 {
 .box {
   background-color: #808080;
   padding: 5px 15px;
-}
-
-.box.rounded {
-  border-top-left-radius: 25px;
-  border-bottom-right-radius: 25px;
+  &.rounded {
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }
 }
 
 /* Responsive: Portrait tablets and up */
