@@ -1,17 +1,17 @@
 'use strict';
 
-describe('Controller: HardctrlCtrl', function () {
+describe('Controller: HardCtrl', function () {
 
   // load the controller's module
   beforeEach(module('websiteApp'));
 
-  var HardctrlCtrl,
+  var HardCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    HardctrlCtrl = $controller('HardctrlCtrl', {
+    HardctrlCtrl = $controller('HardCtrl', {
       $scope: scope
     });
   }));

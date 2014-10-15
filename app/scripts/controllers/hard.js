@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name websiteApp.controller:HardctrlCtrl
+ * @name websiteApp.controller:HardCtrl
  * @description
  * # HardctrlCtrl
  * Controller of the websiteApp
  */
 angular.module('websiteApp')
-  .controller('HardctrlCtrl', function ($scope) {
+  .controller('HardCtrl', function ($scope) {
 
   });
