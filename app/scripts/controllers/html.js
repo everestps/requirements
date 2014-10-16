@@ -8,6 +8,6 @@
  * Controller of the websiteApp
  */
 angular.module('websiteApp')
-  .controller('HtmlctrlCtrl', function ($scope) {
+  .controller('HtmlCtrl', function ($scope) {
 
   });

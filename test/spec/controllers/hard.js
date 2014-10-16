@@ -11,7 +11,7 @@ describe('Controller: HardCtrl', function () {
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    HardctrlCtrl = $controller('HardCtrl', {
+    HardCtrl = $controller('HardCtrl', {
       $scope: scope
     });
   }));
